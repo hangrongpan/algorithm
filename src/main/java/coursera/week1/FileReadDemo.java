@@ -1,5 +1,7 @@
 package coursera.week1;
 
+import org.junit.Test;
+
 import java.io.*;
 
 public class FileReadDemo {
@@ -11,10 +13,12 @@ public class FileReadDemo {
             String line;
             // System.out.println(System.getProperty("user.dir"));
             while ((line = br.readLine()) != null) {
+                int tmp = Integer.parseInt(line);
                 System.out.println(line);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
 }
