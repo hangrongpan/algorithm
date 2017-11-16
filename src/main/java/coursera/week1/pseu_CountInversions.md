@@ -10,3 +10,5 @@ for k:=1 to n do
     else    
         B[k] := D[i++]  
 ```
+### TODO 
+Add merge sort implementation.
